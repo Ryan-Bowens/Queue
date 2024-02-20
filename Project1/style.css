@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    outline: 0px;
+    font-family: sans-serif;
+    /* background-color: black; */
+}
+/* Navbar */
+#nav{
+    background-color: black;
+    color: rgb(227, 240, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    font-size: 25px;
+}
+/* Left Side */
+#titlelogo{
+    display: flex;
+}
+#chad{
+    height: 60px; width: 50px;
+    margin-left: 20px;
+}
+/* Log In Button */
+#log{
+    background-color: rgb(21, 194, 50);
+    color: white;
+    font-size: large;
+    height: 40px; width: 100px;
+    border: 1px solid white;
+    box-shadow: 2px 2px aliceblue;
+    border-radius: 30px;
+}
+/* Container Under Nav */
+#container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aquamarine;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+/* Activity Boxes */
+.activitybox{
+    border: 2px solid black;
+    box-shadow: 3px 3px blue;
+    border-radius: 30px;
+    height: 310px; width: auto;
+    margin: 20px;
+    background-color: aliceblue;
+}
+/* Header for Boxes */
+.boxhead{
+    /* background-color: aliceblue; */
+    border-radius: 30px;
+    display: flex;
+    align-items: end;
+    gap: 20px
+}
+.boxact{
+    /* background-color: aliceblue; */
+    height: auto; width: auto;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.boxdesc{
+    color: gray;
+    /* background-color: aliceblue; */
+}
+/* Activity Under Description */
+.activityinner{
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 200px; width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+}
+.kdatext{
+    /* border: 1px solid black; */
+    height: auto; width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.input{
+    height: 30px; width: auto;
+    background-color: palegoldenrod;
+    border-radius: 30px;
+    padding-left: 15px;
+}
+#result{
+    border: 1px solid black;
+    height: auto; width: 400px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#resulthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#resulttext{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+#resultvalue{
+    padding-right: 10px;
+    text-decoration: underline;
+}
+#resultdesc{
+    visibility: hidden;
+    font-size: 20px;
+    margin-left: 10px;
+    height: 125px; width: 375px;
+}
+/* Bottom of Result */
+#bottomhead{
+    display: flex;
+    justify-content: space-between;
+}
+#catup{
+    height: 40px; width: 40px;
+    padding-left: 20px;
+}
+
+#destroy{
+    border: 1px solid black;
+    height: 20px; width: auto;
+}
+#token{
+    border: 1px solid black;
+    height: 20px; width: auto;
+    margin-right: 20px;
+}
+/* 2nd Activity Box */
+#adventure{
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: black;
+    height: 90%; width: 98.5%;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#options{
+    display: flex;
+    justify-content: space-around;
+}
+.optionbut{
+    border: 1px solid white;
+    text-align: center;
+    align-items: center;
+    height: 50px; width: 100px;
+}
+/* Collapse Button */
+.collapse{
+    background-color: rgb(228, 228, 228);
+    border-radius: 30px;
+    font-size: medium;
+    height: 30px; width: 70px;
+    margin-left: 20px;
+    margin-top: 4px;
+}

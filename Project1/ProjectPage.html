@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Min height...research -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting In Queue</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="nav">
+        <div id="titlelogo">
+            <h1>Fit in Queue</h1>
+            <img src="Picture/gigagamer.png" alt="gigagamer" id="chad">
+        </div>
+        <button id="log">Log In</button>
+    </div>
+    <div id="container">
+        <!-- KDA Fitness (Box 1) -->
+        <div class="activitybox">
+            <div class="boxhead">
+                <h2 class="boxact">KDA Fitness</h2>
+                <h4 class="boxdesc">Input your Kill, Death, and Assist numbers</h4>
+            </div>
+            <div class="activityinner">
+                <div class="kdatext">
+                    <p class="kda">Kill(s):</p>
+                    <p class="kda">Death(s):</p>
+                    <p class="kda">Assist(s):</p>
+                </div>
+                <div class="kdatext">
+                    <input type="number" placeholder="Kill(s)" class="input" id="kills">
+                    <input type="number" placeholder="Death(s)" class="input" id="deaths">
+                    <input type="number" placeholder="Assist(s)" class="input" id="assists">
+                </div>
+                <div id="result">
+                    <div id="resulthead">
+                        <p id="resulttext">Showing Result of:</p>
+                        <p id="resultvalue">K.--/D.--/A.--</p>
+                    </div>
+                    <!-- Research in JS -->
+                    <p id="resultdesc">
+                        <!-- line 11 js -->
+                    </p>
+                    <div id="bottomhead">
+                            <img src="Picture/catthumbsup.png" alt="thumbsupcat" id="catup">
+                        <div id="buttons">
+                            <button id="destroy">Destroy</button>
+                            <button id="token">Tokens</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="collapse">Collapse</button>
+        </div>
+        <!-- Text Adventure (Box 2) -->
+        <div class="activitybox">
+            <div class="boxhead">
+                <h2 class="boxact">Text Adventure Title</h2>
+                <h4 class="boxdesc">A multiple choice Text Adventure Game for your pleasure</h4>
+            </div>
+            <div class="activityinner">
+                <div id="adventure">
+                    <p>WIP</p>
+                    <div id="options">
+                        <div class="optionbut">
+                            <p> Option 1</p>
+                        </div>
+                        <div class="optionbut">
+                            <p> Option 2</p>
+                        </div>
+                        <div class="optionbut">
+                            <p> Option 3</p>
+                        </div>
+                        <div class="optionbut">
+                            <p> Option 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="collapse">Collapse</button>
+        </div>
+    </div>
+    <script src=script.js> </script>
+</body>
+
+</html>
